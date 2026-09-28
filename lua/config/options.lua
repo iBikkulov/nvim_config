@@ -13,7 +13,7 @@ vim.opt.hlsearch = false                -- Don't highlight search results
 vim.opt.wrap = false                    -- Don't wrap lines
 vim.opt.scrolloff = 8                   -- Keep 8 lines above/below the cursor
 
-vim.opt.colorcolumn = "80"              -- Show column at 120 characters
+vim.opt.colorcolumn = "120"             -- Show column at 120 characters
 vim.opt.cursorline = true               -- Highlight the cursor line
 
 --vim.opt.termguicolors = true          -- Enable 24-bit colors
