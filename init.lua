@@ -1,4 +1,4 @@
-require('keymaps')
-require('options')
--- require('lazy')
+require("keymaps")
+require("options")
+require("pack")
 
