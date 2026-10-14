@@ -1,5 +1,7 @@
 vim.g.netrw_banner = 0                  -- Disable Netrw banner
 
+vim.opt.winborder = "rounded"           -- Floating windows appearance
+
 vim.opt.number = true                   -- Show line numbers
 vim.opt.relativenumber = true           -- Show relative line numbers
 

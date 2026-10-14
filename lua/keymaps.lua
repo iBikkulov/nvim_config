@@ -1,4 +1,3 @@
--- Setup `mapleader` and `maplocalleader` before loading lazy.nvim so that mappings are correct.
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
@@ -11,4 +10,7 @@ vim.keymap.set("n", "N", "Nzzzv", { desc = "Prev search result cursor centered" 
 -- Buffer navigation
 vim.keymap.set("n", "<leader>bn", ":bnext<CR>", { desc = "Next buffer" })
 vim.keymap.set("n", "<leader>bp", ":bprevious<CR>", { desc = "Previous buffer" })
+
+-- File navigation
+vim.keymap.set("n", "<leader>e", ":Ex<CR>", { desc = "File navigation" })
 
